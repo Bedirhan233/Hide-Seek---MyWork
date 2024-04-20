@@ -2,14 +2,14 @@
 
 
 ## About Game
-Hide and Seek is a simple mobile game where the player 1 hides and player 2 search for him. Player 1 can put blocks and bomb in the map to stop the player 2 but he also have to be aware of water pool that makes him leave footsteps behind him. Player 2 have to find the player 1 and kill him with his weapon. He can destroy the blocks but needs to avoid bombs or he will die and lose. 
+Hide and Seek is a simple mobile game where Player 1 hides and Player 2 searches for him. Player 1 can place blocks and bombs on the map to hinder Player 2, but he also has to watch out for water pools that leave footsteps behind. Player 2 must find Player 1 and eliminate them with his axe. He can destroy blocks but needs to avoid bombs, as getting too close to them will cause him to lose the game.
 
 ![GIF 2024-04-20 18-10-15](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/c69f72c3-c221-4c9d-922e-0978d79036f0) ![GIF 2024-04-20 19-27-12](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/c573d1ea-9bb0-4c05-be8c-e4c76ea6defc)
 
 
 
 ## FOV
-I started to watch some videos and tried to make a field of view logic but I was not happy with the result so I made my own fov system. Its a basic system where I send a raycast to target and if the raycast can hit the target the target will be visible, if it block something else in the way the target will be invisible. 
+I started by watching some videos and tried to create a field of view logic, but I wasn't satisfied with the result. So, I developed my own FOV system. It's a basic system where I send a raycast to the target, and if the raycast hits the target, it becomes visible. If something else hits the ray, the target becomes invisible.
 
 <details>
   <summary>Click to expand</summary>
