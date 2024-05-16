@@ -1,5 +1,8 @@
 # Hide-Seek---MyWork
 
+![menuPNG](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/9ad23036-2024-45e8-aafd-b56209dfb5c5)
+![HSMenu3](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/53235927-d982-451f-aa95-0f1093b4148e)
+
 
 ## About Game
 Hide and Seek is a simple mobile game where Player 1 hides and Player 2 searches for him. Player 1 can place blocks and bombs on the map to hinder Player 2, but he also has to watch out for water pools that leave footsteps behind. Player 2 must find Player 1 and eliminate them with his axe. He can destroy blocks but needs to avoid bombs, as getting too close to them will cause him to lose the game.
