@@ -1,13 +1,14 @@
 # Hide-Seek---MyWork
 
-![menuPNG](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/9ad23036-2024-45e8-aafd-b56209dfb5c5)
-![HSMenu3](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/53235927-d982-451f-aa95-0f1093b4148e)
+![menuPNG](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/0797c04c-3dec-4853-9017-1bf847cf78bb)
+![Capture](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/2f879089-e290-4c4f-9d7a-494dd1d03e90)
+
 
 
 ## About Game
 Hide and Seek is a simple mobile game where Player 1 hides and Player 2 searches for him. Player 1 can place blocks and bombs on the map to stop Player 2, but he also has to watch out for water pools that leave footsteps behind. Player 2 must find Player 1 and kill him with his axe. He can destroy blocks but needs to avoid bombs, as getting too close to them will cause him to lose the game.
 
-![GIF 2024-04-20 18-10-15](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/c69f72c3-c221-4c9d-922e-0978d79036f0) ![GIF 2024-04-20 19-27-12](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/c573d1ea-9bb0-4c05-be8c-e4c76ea6defc)
+
 
 
 
@@ -111,9 +112,14 @@ The saving and loading of positions and blocks was the most fun part of the proj
             footStepList[i].transform.rotation = gameInfo.footStepRot[i];
 
         }
+
         totalLoaded++;
 
 
     }
+```
+</details>
 
+![GIF 2024-04-20 18-10-15](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/c69f72c3-c221-4c9d-922e-0978d79036f0) 
+![GIF 2024-04-20 19-27-12](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/c573d1ea-9bb0-4c05-be8c-e4c76ea6defc)
 
