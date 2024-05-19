@@ -67,7 +67,7 @@ private void CheckTargetObjectRaycast(GameObject target)
 ![GIF 2024-04-20 18-03-06](https://github.com/Bedirhan233/Hide-Seek---MyWork/assets/114574131/07e56703-2ef3-4c20-ba0d-19618d96af11)
 ## Load Data
 
-The saving and loading positions and blocks was the most fun part of the project! To load data from firebase I used objectPool system. At the start of every match where its first players turn I instantiate all bombs and blocks into a object pool and set them to true or false after first players behviour. After I save and load I just instantiate the same amount that have been saved in database. 
+The saving and loading of positions and blocks was the most fun part of the project! To load data from Firebase, I used an object pool system. At the start of every match, when it’s the first player's turn, I instantiate all bombs and blocks into an object pool and set them to true or false based on the first player's behavior. After I save and load, I just instantiate the same amount that has been saved in the database. 
 <details>
   <summary>Click to expand</summary>
   
