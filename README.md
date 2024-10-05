@@ -15,8 +15,7 @@ Hide and Seek is a simple mobile game where Player 1 hides and Player 2 searches
 ## FOV
 I started by watching some videos and tried to create a field of view logic, but I wasn't satisfied with the result. So, I developed my own FOV system. It's a basic system where I send a raycast to the target, and if the raycast hits the target, it becomes visible. If something else hits the ray, the target becomes invisible.
 
-<details>
-  <summary>Click to expand</summary>
+
   
 ```csharp
 private void CheckTargetObjectRaycast(GameObject target)
@@ -69,8 +68,7 @@ private void CheckTargetObjectRaycast(GameObject target)
 ## Load Data
 
 The saving and loading of positions and blocks was the most fun part of the project! To load data from Firebase, I used an object pool system. At the start of every match, when it’s the first player's turn, I instantiate all bombs and blocks into an object pool and set them to true or false based on the first player's behavior. After I save and load, I just instantiate the same amount that has been saved in the database. 
-<details>
-  <summary>Click to expand</summary>
+
   
 ```csharp
     private void LoadGameDataActions()
